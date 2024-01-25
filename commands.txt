@@ -1,0 +1,12 @@
+docker build -t <DOCKER_REGITRY>/<YOUR_DOCKER_USERNAME>/<IMAGE_NAME>:<TAG_NAME> .
+docker build -t docker.io/miltonc/house-price:01 .
+
+
+docker login docker.io
+
+docker push docker.io/<YOUR_USERNAME>/house-price:01
+docker push docker.io/miltonc/house-price:01
+
+
+{
+        ".dockerconfigjson": "{\"auths\":{\"YOUR_DOCKER_REGISTRY_URL\":{\"username\":\"YOUR_DOCKER_USERNAME\",\"password\":\"YOUR_DOCKER_ACCESS_TOKEN\"}}}"    }
