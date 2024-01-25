@@ -1,6 +1,6 @@
 # Load Datasets
 from sklearn import datasets
-data_house = datasets.fetch_california_housing()
+data_house = datasets.fetch_california_housing(data_home="/app/src")
 X = data_house['data']
 y = data_house['target']
 #
