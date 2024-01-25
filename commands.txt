@@ -1,10 +1,12 @@
 docker build -t <DOCKER_REGITRY>/<YOUR_DOCKER_USERNAME>/<IMAGE_NAME>:<TAG_NAME> .
 docker build -t docker.io/miltonc/house-price:01 .
 docker build -t docker.io/miltonc/house-price:02 .
+docker build -t docker.io/miltonc/house-price:03 .
 
 docker login docker.io
 
 docker push docker.io/<YOUR_USERNAME>/house-price:01
 docker push docker.io/miltonc/house-price:01
 docker push docker.io/miltonc/house-price:02
+docker push docker.io/miltonc/house-price:03
 
