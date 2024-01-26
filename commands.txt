@@ -19,5 +19,9 @@ aws s3 cp train.csv s3://hcp-901fd5ae-0a34-4ecf-9598-db28f5bfa794/example-datase
 aws s3 ls s3://<YOUR_BUCKET_NAME/example-dataset/house-price-toy/data/
 aws s3 ls s3://hcp-901fd5ae-0a34-4ecf-9598-db28f5bfa794/example-dataset/house-price-toy/data/
 
+aws s3 ls s3://<YOUR_BUCKET_NAME>/example-dataset/house-price-toy/model/<YOUR_EXECUTION_ID>/housepricemodel
+aws s3 ls s3://hcp-901fd5ae-0a34-4ecf-9598-db28f5bfa794/example-dataset/house-price-toy/e86e8a425e193e06/housemodel/
+
+
 
 
