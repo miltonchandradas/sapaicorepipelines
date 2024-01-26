@@ -9,7 +9,7 @@ metadata:
     executables.ai.sap.com/name: "Milton House Price (Sklearn Example)"
   labels:
     scenarios.ai.sap.com/id: "milton-learning-code"
-    ai.sap.com/version: "2.0"
+    ai.sap.com/version: "3.0"
 spec:
   imagePullSecrets:
     - name: milton-credentials # your docker registry secret
