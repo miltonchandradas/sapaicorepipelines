@@ -10,7 +10,7 @@ metadata:
     artifacts.ai.sap.com/housedataset.kind: "dataset" # Helps in suggesting the kind of inputs that can be attached.
     artifacts.ai.sap.com/housemodel.kind: "model" # Helps in suggesting the kind of artifact that can be generated.
   labels:
-    scenarios.ai.sap.com/id: "learning-datalines"
+    scenarios.ai.sap.com/id: "milton-learning-datalines"
     ai.sap.com/version: "2.0"
 spec:
   imagePullSecrets:
