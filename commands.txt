@@ -2,6 +2,8 @@ docker build -t <DOCKER_REGITRY>/<YOUR_DOCKER_USERNAME>/<IMAGE_NAME>:<TAG_NAME> 
 docker build -t docker.io/miltonc/house-price:01 .
 docker build -t docker.io/miltonc/house-price:02 .
 docker build -t docker.io/miltonc/house-price:03 .
+docker build -t docker.io/miltonc/house-price:04 .
+docker build -t docker.io/miltonc/house-server:01 .
 
 docker login docker.io
 
@@ -9,6 +11,8 @@ docker push docker.io/<YOUR_USERNAME>/house-price:01
 docker push docker.io/miltonc/house-price:01
 docker push docker.io/miltonc/house-price:02
 docker push docker.io/miltonc/house-price:03
+docker push docker.io/miltonc/house-price:04
+docker push docker.io/miltonc/house-server:01
 
 
 
@@ -21,6 +25,7 @@ aws s3 ls s3://hcp-901fd5ae-0a34-4ecf-9598-db28f5bfa794/example-dataset/house-pr
 
 aws s3 ls s3://<YOUR_BUCKET_NAME>/example-dataset/house-price-toy/model/<YOUR_EXECUTION_ID>/housepricemodel
 aws s3 ls s3://hcp-901fd5ae-0a34-4ecf-9598-db28f5bfa794/example-dataset/house-price-toy/e86e8a425e193e06/housemodel/
+aws s3 ls s3://hcp-901fd5ae-0a34-4ecf-9598-db28f5bfa794/example-dataset/house-price-toy/ef406cf4c42bdd54/housemodel/
 
 
 
