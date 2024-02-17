@@ -9,7 +9,7 @@ metadata:
     executables.ai.sap.com/name: "serve-exectuable"
   labels:
     scenarios.ai.sap.com/id: "tf-text-clf"
-    ai.sap.com/version: "1.0.0"
+    ai.sap.com/version: "1.0.3"
 spec:
   inputs:
     artifacts:
