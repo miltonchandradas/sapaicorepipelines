@@ -4,7 +4,7 @@ metadata:
   name: tf-text-clf-serve
   annotations:
     scenarios.ai.sap.com/description: "Tensor flow text classification"
-    scenarios.ai.sap.com/name: "movie-review-clf"
+    scenarios.ai.sap.com/name: "Milton Movie Review Scenario"
     executables.ai.sap.com/description: "Tensor flow GPU Serving executable"
     executables.ai.sap.com/name: "serve-exectuable"
   labels:
