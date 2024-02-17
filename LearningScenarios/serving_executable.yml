@@ -1,7 +1,7 @@
 apiVersion: ai.sap.com/v1alpha1
 kind: ServingTemplate
 metadata:
-  name: milton-tf-pipeline
+  name: tf-text-clf-serve
   annotations:
     scenarios.ai.sap.com/description: "Tensor flow text classification"
     scenarios.ai.sap.com/name: "movie-review-clf"
