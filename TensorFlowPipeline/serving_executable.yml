@@ -9,7 +9,7 @@ metadata:
     executables.ai.sap.com/name: "serve-exectuable"
   labels:
     scenarios.ai.sap.com/id: "tf-text-clf"
-    ai.sap.com/version: "4.0.2"
+    ai.sap.com/version: "4.0.5"
 spec:
   inputs:
     artifacts:
@@ -25,7 +25,7 @@ spec:
           - name: milton-credentials
         containers:
         - name: kfserving-container
-          image: "docker.io/miltonc/milton-movie-review-clf-serve:4.0.1"
+          image: "docker.io/miltonc/milton-movie-review-clf-serve:4.0.5"
           ports:
             - containerPort: 9001
               protocol: TCP
