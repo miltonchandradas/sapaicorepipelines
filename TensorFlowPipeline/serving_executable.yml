@@ -25,7 +25,7 @@ spec:
           - name: milton-credentials
         containers:
         - name: kfserving-container
-          image: "docker.io/miltonc/milton-movie-review-clf-serve:1.0.0"
+          image: "docker.io/miltonc/milton-movie-review-clf-serve:2.0.0"
           ports:
             - containerPort: 9001
               protocol: TCP
